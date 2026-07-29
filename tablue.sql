@@ -4,9 +4,6 @@ from coviddeaths_fixed
 where continent is not null and TRIM(continent) <> ''
 order by 1,2;
 
--- Just a double check based off the data provided
--- numbers are extremely close so we will keep them - The Second includes "International"  Location
-
 
 -- 2. 
 
